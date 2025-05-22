@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flora Collector</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #222; /* A dark background for the page */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh; /* Ensure it takes full viewport height */
+        }
+        /* This will be where our Phaser game canvas is injected */
+        #game-container {
+            border: 3px solid #555; /* Optional: a border around the game */
+        }
+    </style>
+    <!-- Load Phaser 3 library from a CDN (Content Delivery Network) -->
+    <script src="https://cdn.jsdelivr.net/npm/phaser@3.88.2/dist/phaser.min.js"></script>
+</head>
+<body>
+    <div id="game-container"></div>
+
+    <!-- Load our main game script -->
+   <script type="module" src="js/main.js"></script>
+</body>
+</html>
